@@ -1,17 +1,17 @@
 modLoader="javafml"
 loaderVersion="[45,)"
 license="MIT"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+issueTrackerURL="https://github.com/PixilareMedia/PixelAdditions/issues"
 
 [[mods]]
 modId="pixeladditions"
 version="${file.jarVersion}"
-displayName="PixelAdditions"
-updateJSONURL="https://download.pixilaremedia.com/updates.json"
-displayURL="https://www.pixilaremedia.com"
-#logoFile="PixelAdditions.png"
-#credits="Thanks for this example mod goes to Java"
-authors="Herobrain_gamer, MasterZent"
+displayName="Pixel Additions"
+updateJSONURL="https://cdn.roebuck.dev/user/pixilare-media/minecraft/mods/pixel-additions/updates.json"
+displayURL="https://www.pixilaremedia.com/projects/pixel-additions/"
+logoFile="logo.png"
+credits="Thanks to the countless Composers for the music."
+authors="Pixilare Media, Herobrain_gamer, MasterZent"
 displayTest="MATCH_VERSION"
 description='''
 A bunch of random things that we wanted to add to the game.
@@ -29,3 +29,32 @@ A bunch of random things that we wanted to add to the game.
    versionRange="[1.19.4,1.20)"
    ordering="NONE"
    side="BOTH"
+
+[[dependencies.pixeladditions]]
+    modId="catalogue"
+    mandatory=false
+    versionRange="[1.7.0,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.pixeladditions]]
+    modId="configured"
+    mandatory=false
+    versionRange="[2.1.1,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.pixeladditions]]
+    modId="jei"
+    mandatory=false
+    versionRange="[13.1.0.11,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pixeladditions]]
+    modId="jade"
+    mandatory=false
+    versionRange="[10.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[modproperties.pixeladditions]
+    catalogueImageIcon="pack.png"
+    configuredBackground="minecraft:textures/block/sculk.png"

@@ -1,0 +1,240 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"acid": "pixeladditions:block/etching_still",
+		"paper": "minecraft:item/paper",
+		"bucket": "minecraft:item/bucket",
+		"stick": "minecraft:item/stick",
+		"corner_side": "minecraft:block/oak_log",
+		"base": "minecraft:block/stone",
+		"particle": "minecraft:block/stone"
+	},
+	"elements": [
+		{
+			"name": "corner-1",
+			"from": [13, 0, 0],
+			"to": [16, 9, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "north"},
+				"east": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "east"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#corner_side"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#corner_side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "corner-2",
+			"from": [13, 0, 13],
+			"to": [16, 9, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "east"},
+				"south": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "south"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#corner_side"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#corner_side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "corner-3",
+			"from": [0, 0, 0],
+			"to": [3, 9, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "north"},
+				"west": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "west"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#corner_side"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#corner_side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "corner-4",
+			"from": [0, 0, 13],
+			"to": [3, 9, 16],
+			"faces": {
+				"south": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "south"},
+				"west": {"uv": [0, 0, 4, 9], "texture": "#corner_side", "cullface": "west"},
+				"up": {"uv": [0, 0, 3, 3], "texture": "#corner_side"},
+				"down": {"uv": [0, 0, 3, 3], "texture": "#corner_side", "cullface": "down"}
+			}
+		},
+		{
+			"name": "sliceNS",
+			"from": [3, 4, 0],
+			"to": [13, 6, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 3, 10], "rotation": 90, "texture": "#corner_side", "cullface": "north"},
+				"south": {"uv": [0, 0, 3, 10], "rotation": 90, "texture": "#corner_side", "cullface": "south"}
+			}
+		},
+		{
+			"name": "sliceWE",
+			"from": [0, 4, 3],
+			"to": [16, 6, 13],
+			"faces": {
+				"east": {"uv": [0, 0, 3, 10], "rotation": 90, "texture": "#corner_side", "cullface": "east"},
+				"west": {"uv": [0, 0, 3, 10], "rotation": 90, "texture": "#corner_side", "cullface": "west"}
+			}
+		},
+		{
+			"name": "stoneBottom",
+			"from": [3, 0, 0],
+			"to": [13, 4, 16],
+			"faces": {
+				"north": {"uv": [3, 12, 13, 16], "texture": "#base", "cullface": "north"},
+				"south": {"uv": [3, 12, 13, 16], "texture": "#base", "cullface": "south"},
+				"down": {"uv": [3, 16, 13, 0], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "stoneWdown",
+			"from": [0, 0, 3],
+			"to": [3, 4, 13],
+			"faces": {
+				"west": {"uv": [3, 12, 13, 16], "texture": "#base", "cullface": "west"},
+				"down": {"uv": [0, 13, 3, 3], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "stoneEdown",
+			"from": [13, 0, 3],
+			"to": [16, 4, 13],
+			"faces": {
+				"east": {"uv": [3, 12, 13, 16], "texture": "#base", "cullface": "east"},
+				"down": {"uv": [13, 13, 16, 3], "texture": "#base", "cullface": "down"}
+			}
+		},
+		{
+			"name": "stoneNtop",
+			"from": [3, 6, 0],
+			"to": [13, 9, 3],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"south": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"up": {"uv": [0, 0, 10, 3], "texture": "#base"}
+			}
+		},
+		{
+			"name": "stoneStop",
+			"from": [3, 6, 13],
+			"to": [13, 9, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"south": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"up": {"uv": [0, 0, 10, 3], "texture": "#base"}
+			}
+		},
+		{
+			"name": "stoneWtop",
+			"from": [0, 6, 3],
+			"to": [3, 9, 13],
+			"faces": {
+				"east": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"west": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"up": {"uv": [0, 0, 3, 10], "texture": "#base"}
+			}
+		},
+		{
+			"name": "stoneEtop",
+			"from": [13, 6, 3],
+			"to": [16, 9, 13],
+			"faces": {
+				"east": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"west": {"uv": [0, 0, 10, 3], "texture": "#base"},
+				"up": {"uv": [0, 0, 3, 10], "texture": "#base"}
+			}
+		},
+		{
+			"name": "stoneInnerBottom",
+			"from": [3, 6, 3],
+			"to": [13, 6, 13],
+			"faces": {
+				"up": {"uv": [3, 3, 13, 13], "texture": "#base"}
+			}
+		},
+		{
+			"name": "water",
+			"from": [3, 7, 3],
+			"to": [13, 8, 13],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#acid"}
+			}
+		},
+		{
+			"name": "paper1",
+			"from": [0, 9.1, 15],
+			"to": [3, 9.1, 18],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#paper", "cullface": "up"}
+			}
+		},
+		{
+			"name": "paper2",
+			"from": [1, 9.1, 1],
+			"to": [4, 9.1, 4],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#paper", "cullface": "up"}
+			}
+		},
+		{
+			"name": "paper3",
+			"from": [11, 9.1, -9],
+			"to": [14, 9.1, -6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#paper", "cullface": "up"}
+			}
+		},
+		{
+			"name": "bucket",
+			"from": [7, 9.1, 4],
+			"to": [10, 9.1, 7],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#bucket", "cullface": "up"}
+			}
+		},
+		{
+			"name": "stick1",
+			"from": [15, 9.1, -4],
+			"to": [18, 9.1, -1],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#stick", "cullface": "up"}
+			}
+		},
+		{
+			"name": "stick2",
+			"from": [7, 9.1, -7],
+			"to": [10, 9.1, -4],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#stick", "cullface": "up"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "woodSupports",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		},
+		{
+			"name": "stoneBase",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [6, 7, 8, 9, 10, 11, 12, 13]
+		},
+		{
+			"name": "water",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [14]
+		},
+		{
+			"name": "tools",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [15, 16, 17, 18, 19, 20]
+		}
+	]
+}

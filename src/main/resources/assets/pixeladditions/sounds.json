@@ -1,3 +1,200 @@
 {
-
+  "music_disc.songs_of_the_smp.aint_no_crying": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/aint_no_crying",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.syndicate": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/syndicate",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.welcome_home": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/welcome_home",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.blue": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/blue",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.in_my_head": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/in_my_head",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.kiss_your_dreams_goodbye": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/kiss_your_dreams_goodbye",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.turn_back_time": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/turn_back_time",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.songs_of_the_smp.four_am": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/songs_of_the_smp/four_am",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.tell_your_story": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/tell_your_story",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.write_it_down": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/write_it_down",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.night_before_dawn": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/night_before_dawn",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.doomsday": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/doomsday",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.why": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/why",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.revived": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/revived",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.records_of_the_smp.casino_royale": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/records_of_the_smp/casino_royale",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.everybodys_rooftop_run": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/everybodys_rooftop_run",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.i_found_this_in_my_trash_can": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/i_found_this_in_my_trash_can",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.everyones_platinum_sequel": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/everyones_platinum_sequel",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.caramelldansen_hyperpop": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/caramelldansen_hyperpop",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.for_the_swedes": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/for_the_swedes",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.pop_culture_remixs.yukai_young": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/pop_culture_remixs/yukai_young",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.vanilla_remixs.otherside_remix": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pixeladditions:records/vanilla_remixs/otherside_remix",
+        "stream": true
+      }
+    ]
+  }
 }

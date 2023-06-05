@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pixeladditions:item/blank_disc_songs_of_the_smp"
+  }
+}

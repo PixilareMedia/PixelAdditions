@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O ",
+    "OWO",
+    " O "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "O": {
+      "item": "pixeladditions:obsidian_plates"
+    }
+  },
+  "result": {
+    "item": "pixeladditions:blank_disc"
+  }
+}

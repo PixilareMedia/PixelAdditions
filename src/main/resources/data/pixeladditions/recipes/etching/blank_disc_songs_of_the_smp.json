@@ -1,0 +1,8 @@
+{
+  "type": "pixeladditions:etching",
+  "ingredient": {
+    "item": "pixeladditions:blank_disc"
+  },
+  "result": "pixeladditions:blank_disc_songs_of_the_smp",
+  "count": 1
+}

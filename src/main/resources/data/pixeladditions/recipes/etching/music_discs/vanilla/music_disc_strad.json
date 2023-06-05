@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "type": "pixeladditions:vanilla_etching"
+    }
+  ],
+  "type": "pixeladditions:etching",
+  "ingredient": {
+    "item": "pixeladditions:blank_disc_vanilla"
+  },
+  "result": "minecraft:music_disc_strad",
+  "count": 1
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "pixeladditions:obsidian_plates",
+    "count": 2
+  }
+}

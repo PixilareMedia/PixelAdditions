@@ -1,0 +1,22 @@
+{
+  "values": [
+    "pixeladditions:spawner_minecart",
+    "pixeladditions:end_gateway",
+    "pixeladditions:end_portal",
+    "pixeladditions:nether_portal",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:barrier",
+    "minecraft:structure_block",
+    "minecraft:structure_void",
+    "minecraft:jigsaw",
+    "minecraft:light",
+    "minecraft:knowledge_book",
+    "minecraft:debug_stick",
+    "minecraft:suspicious_stew",
+    "minecraft:command_block_minecart",
+    "minecraft:spawner",
+    "minecraft:dragon_egg"
+  ]
+}
